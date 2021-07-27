@@ -1,0 +1,9 @@
+.player{
+    width: 100%;
+    background-color: #212121;
+    height: 5rem;
+    padding: 1rem;
+    position:fixed;
+    bottom:0;
+    display: flex;
+}

@@ -1,0 +1,10 @@
+.video{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.mid{
+    padding: 3rem;
+    text-align: center;
+}

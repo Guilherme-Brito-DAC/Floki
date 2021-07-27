@@ -1,0 +1,16 @@
+.main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 75% 25%;
+}
+.esquerda{
+    grid-column: 1;
+    padding: 3rem;
+}
+.direita{
+    grid-column: 2;
+    padding: 3rem;
+}
+.meio{
+    padding: 3rem;
+}
