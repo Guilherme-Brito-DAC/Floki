@@ -12,6 +12,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mysql": "github:mysqljs/mysql",
+    "mysql-database": "^1.2.2",
     "usetube": "^2.1.0"
   }
 }
