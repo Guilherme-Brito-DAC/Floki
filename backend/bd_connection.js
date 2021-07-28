@@ -16,9 +16,14 @@ function incluir(tabela, campos, dados){
     connection.end();
 }
 
-function alterar(tabela, data, key){
+function alterar(tabela, campos, dados, key){
 
-    let sql = "UPDATE "+ tabela +" SET "+ data +" WHERE "+ key;
+    let sql = "UPDATE "+ tabela + "SET ";
+    for(var i = 0; i < campos.length; i++){
+        sql += campos[i] +" = "+ dados[i]; 
+    }
+    sql += " WHERE "+ key;
+
     connection.query(sql);
     connection.end();
 }
